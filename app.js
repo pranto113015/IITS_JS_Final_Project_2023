@@ -55,7 +55,7 @@ addToCartBtn.forEach((button) => {
 // Add to cart button click evenlisteners function
 function addtocardbtn() {
   cartCount++; // counter increment 
-  localStorage.setItem("cartCount", cartCount);
+  res.setItem("cartCount", cartCount);
   newcounter();
 }
 
