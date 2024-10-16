@@ -22,6 +22,7 @@ let iits_adminSection = document.getElementById("iits-adminSection");
 let iits_cancelBtn = document.getElementById("iits-cancelBtn");
 let iits_developer = document.getElementById("iits-developer");
 
+let cartCount;
 
 // show update conter view
 function newcounter() {
